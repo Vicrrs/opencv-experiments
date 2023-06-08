@@ -4,9 +4,11 @@ import cv2
 img = cv2.imread(
     r"C:\Users\rozas\Projects\opencv-experiments\imgs\Anumara_Vision.png")
 
-# Criando janela GUI para exibir uma imagem na tela
-# Primeiro parâmetro é o título da janela (deve estar no formato string)
-# Segundo parâmetro é array da imagem
+"""
+Criando janela GUI para exibir uma imagem na tela
+Primeiro parâmetro é o título da janela (deve estar no formato string)
+Segundo parâmetro é array da imagem
+"""
 cv2.imshow("AnumaraVision", img)
 
 """
