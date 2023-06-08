@@ -9,6 +9,9 @@ OpenCV -> Visão computacional com Python e OpenCV
 * Captação por sensores e/ou dispositivos
 * Reconhecer, manipular e processar.
 
+![vc](https://github.com/Vicrrs/opencv-experiments/assets/87845548/d74622e7-f682-4b44-816f-0c0245895b84)
+
+
 ### Sistema da Visão Computacional
 
 ![sistema_VC](https://github.com/Vicrrs/opencv-experiments/assets/87845548/fd8313a9-b656-45be-8926-dae00cd5ca1c)
