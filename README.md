@@ -1,6 +1,10 @@
 # opencv-experiments
 Transferring to the repository an updated version of the experiments I performed with opencv
 
+# Introdução
+
+Trabalhando com imagens.
+
 ## Lendo_img.py
 Para ler as imagens é usado o método cv2.imread(). Este método carrega uma imagem do arquivo especificado.
 Se a imagem não puder ser lida (por causa de arquivo ausente, permissões impróprias, formato não suportado ou inválido),
@@ -24,3 +28,8 @@ A imagem deve estar no diretório de trabalho ou um caminho completo da imagem d
 podemos passar o valor inteiro 0 para este sinalizador.
 * cv2.IMREAD_UNCHANGED: Especifica para carregar uma imagem como tal incluindo o canal alfa. Alternativamente,
 podemos passar o valor inteiro -1 para este sinalizador.
+
+## Lendo e salvando a imagem
+Caso você faça alguma modificação pode usar a função
+```cv2.imwrite()```
+para poder salvar a modificação!
