@@ -11,6 +11,7 @@ OpenCV -> Visão computacional com Python e OpenCV
 
 ### Sistema da Visão Computacional
 
+![sistema_VC](https://github.com/Vicrrs/opencv-experiments/assets/87845548/fd8313a9-b656-45be-8926-dae00cd5ca1c)
 
 
 ## Lendo_img.py
