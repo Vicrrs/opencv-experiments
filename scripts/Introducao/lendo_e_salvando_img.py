@@ -1,7 +1,7 @@
 import cv2
 
 # caminho da imagem
-IMG_PATH = r"C:\Users\rozas\Projects\opencv-experiments\imgs\Anumara_Vision.png"
+IMG_PATH = r"caminho da imagem"
 
 img = cv2.imread(IMG_PATH)
 
