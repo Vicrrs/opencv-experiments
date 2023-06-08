@@ -2,9 +2,9 @@ import cv2
 
 # espscificando o caminho das duas imagens que seram somadas
 img1 = cv2.imread(
-    r"C:\Users\rozas\Projects\opencv-experiments\imgs\004_messi.jpg")
+    r"C:\Users\rozas\Projects\opencv-experiments\imgs\008_tomates.jpeg")
 img2 = cv2.imread(
-    r"C:\Users\rozas\Projects\opencv-experiments\imgs\007_estrada.jpg")
+    r"C:\Users\rozas\Projects\opencv-experiments\imgs\011_circle.JPG")
 
 # Para as imagens serem somadas elas precisam ter o mesmo tamanho
 img1 = cv2.resize(img1, (img2.shape[1], img2.shape[0]))
