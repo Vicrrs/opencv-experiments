@@ -16,6 +16,17 @@ OpenCV -> Visão computacional com Python e OpenCV
 
 ![sistema_VC](https://github.com/Vicrrs/opencv-experiments/assets/87845548/fd8313a9-b656-45be-8926-dae00cd5ca1c)
 
+* Aquisição: captação da imagem, simular os olhos, humanos, dispositivos responsáveis por compor esse papel são os scanners, filmadora e câmera.
+
+* Processamento: melhorar a imagem
+
+* Segmentação: Particionar a imagem em regiões de interesse.
+
+* Análise da imagem: encontrar uma condição numérica que representa parte da imagem.
+
+* Reconhecimento de padrão: Classificar ou agrupar as imagens com base em um conjunto de características.
+
+
 
 ## Lendo_img.py
 Para ler as imagens é usado o método cv2.imread(). Este método carrega uma imagem do arquivo especificado.
