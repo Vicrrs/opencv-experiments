@@ -33,3 +33,8 @@ podemos passar o valor inteiro -1 para este sinalizador.
 Caso você faça alguma modificação pode usar a função
 ```cv2.imwrite()```
 para poder salvar a modificação!
+
+## Girando imagem
+Processamento de imagens em Python (escalonamento, rotação, deslocamento e detecção de bordas)
+
+As imagens podem ser giradas em qualquer grau no sentido horário ou não. Só precisamos definir a matriz de rotação listando o ponto de rotação, o grau de rotação e o fator de escala.
