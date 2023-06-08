@@ -71,3 +71,12 @@ Parâmetros :
     img2 : Matriz da segunda imagem de entrada (canal único, 8 bits ou ponto flutuante)
     wt2 : Peso dos elementos da segunda imagem de entrada a serem aplicados à imagem final
     gammaValue : Medição da luz
+
+## Subtração de imagem
+
+Assim como a adição, podemos subtrair os valores de pixel em duas imagens e mesclá-los com a ajuda de ```cv2.subtract()```.
+As imagens ainda devem ter o mesmo tamanho e profundidade.
+
+Sintaxe: 
+    
+```cv2.subtract(src1, src2)```
