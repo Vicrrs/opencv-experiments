@@ -34,6 +34,24 @@ Caso você faça alguma modificação pode usar a função
 ```cv2.imwrite()```
 para poder salvar a modificação!
 
+
+# Pré-processamento
+
+## Histograma de cores
+
+O histograma de uma imagem é a distribuição da frequência dos níveis de cinza em relação ao número de amostras. Essa distribuição nos fornece informação sobre a qualidade da imagem, principalmente no que diz respeito a intensidade luminosa
+
+Função: ```Hist(img, num1, intervalo)```
+
+    1. img - imagem que vamos trabalhar
+    2. num1 - numero de elementos distintos que podem ser representados
+    3. intervalo - intervalo entre os elementos
+
+Função: ```Ravel()```
+
+    Img = Matriz de entrada, no caso a imagem. Os elementos em um são lidos na ordem específicada e empacotados com matriz 1D
+    Saída: retorna uma matriz plana contínua (Matriz 1D com todos os elemntos da matriz de entrada e com o mesmo tipo que ela)
+
 ## Girando imagem
 Processamento de imagens em Python (escalonamento, rotação, deslocamento e detecção de bordas)
 
@@ -78,21 +96,3 @@ Assim como a adição, podemos subtrair os valores de pixel em duas imagens e me
 As imagens ainda devem ter o mesmo tamanho e profundidade.
 
 Sintaxe: ```cv2.subtract(src1, src2)```
-
-
-# Pré-processamento
-
-## Histograma de cores
-
-O histograma de uma imagem é a distribuição da frequência dos níveis de cinza em relação ao número de amostras. Essa distribuição nos fornece informação sobre a qualidade da imagem, principalmente no que diz respeito a intensidade luminosa
-
-Função: ```Hist(img, num1, intervalo)```
-
-    1. img - imagem que vamos trabalhar
-    2. num1 - numero de elementos distintos que podem ser representados
-    3. intervalo - intervalo entre os elementos
-
-Função: ```Ravel()```
-
-    Img = Matriz de entrada, no caso a imagem. Os elementos em um são lidos na ordem específicada e empacotados com matriz 1D
-    Saída: retorna uma matriz plana contínua (Matriz 1D com todos os elemntos da matriz de entrada e com o mesmo tipo que ela)
