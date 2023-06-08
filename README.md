@@ -77,6 +77,4 @@ Parâmetros :
 Assim como a adição, podemos subtrair os valores de pixel em duas imagens e mesclá-los com a ajuda de ```cv2.subtract()```.
 As imagens ainda devem ter o mesmo tamanho e profundidade.
 
-Sintaxe: 
-    
-```cv2.subtract(src1, src2)```
+Sintaxe: ```cv2.subtract(src1, src2)```
