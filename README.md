@@ -3,7 +3,15 @@ Transferring to the repository an updated version of the experiments I performed
 
 # Introdução
 
-Trabalhando com imagens.
+OpenCV -> Visão computacional com Python e OpenCV
+
+* Ciência que estuda e desenvolve tecnologias que permitem que as máquinas enxerguem e extraem características de um meio/cena.
+* Captação por sensores e/ou dispositivos
+* Reconhecer, manipular e processar.
+
+### Sistema da Visão Computacional
+
+
 
 ## Lendo_img.py
 Para ler as imagens é usado o método cv2.imread(). Este método carrega uma imagem do arquivo especificado.
