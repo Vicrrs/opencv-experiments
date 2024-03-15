@@ -45,6 +45,12 @@ Com a combinação certa dessas técnicas, você pode melhorar significativament
 
 * `Bilateral Filter`: O filtro bilateral suaviza as imagens enquanto preserva as bordas. Ele faz isso considerando tanto a proximidade espacial quanto a semelhança de cores de pixel. Pixels que estão próximos espacialmente e de cor semelhante são suavizados juntos. Pixels que são distantes ou muito diferentes em cores não são suavizados. Isso resulta em uma imagem suavizada com bordas afiadas. O filtro bilateral pode ser útil para a redução de ruído antes da detecção de borda.
 
+
+## Detectando e Removendo Fundos Com Segmentação
+
+* ``Thresholding``: 
+
+
 ### Sistema da Visão Computacional
 
 ![sistema_VC](https://github.com/Vicrrs/opencv-experiments/assets/87845548/fd8313a9-b656-45be-8926-dae00cd5ca1c)
