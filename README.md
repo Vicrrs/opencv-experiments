@@ -12,6 +12,15 @@ OpenCV -> Visão computacional com Python e OpenCV
 ![vc](https://github.com/Vicrrs/opencv-experiments/assets/87845548/d74622e7-f682-4b44-816f-0c0245895b84)
 
 
+## O que é pré-processamento de imagem e por que é importante?
+
+O pré-processamento de imagens é o processo de manipular dados brutos de imagem em um formato utilizável e significativo. Ele perminte eliminar distorções indesejadas e melhorar as qualidades específicas essenciais para aplicações indesejadas e melhorar as qualidades específicas essenciais para aplicações de visão computacional. O pré-processamento é um primeiro passo cricial para preparar os dados de imagens antes de alimentá-los em modelos de aprendizado de máquina.
+
+Existem várias técnicas utilizadas no pré-processamento de imagens:
+
+* Redimensionar: Redimensionar imagens a um tamanho uniforme
+
+
 ### Sistema da Visão Computacional
 
 ![sistema_VC](https://github.com/Vicrrs/opencv-experiments/assets/87845548/fd8313a9-b656-45be-8926-dae00cd5ca1c)
