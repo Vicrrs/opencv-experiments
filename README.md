@@ -18,8 +18,32 @@ O pré-processamento de imagens é o processo de manipular dados brutos de image
 
 Existem várias técnicas utilizadas no pré-processamento de imagens:
 
-* Redimensionar: Redimensionar imagens a um tamanho uniforme
+* ``Redimensionar``: Redimensionar imagens a um tamanho uniforme é importante para que os algoritmos de aprendizado de máquina funcionem corretamente. Podemos usar o método ``resize()`` do OpenCV para redimensionar a imagem.
 
+* ``Grayscaling``: Converter imagens coloridas em escala de cinze pode simplificar seus dados de imagem e reduzir as necessidades computacionais de alguns algoritmos. O método `cvtColor()` pode ser usado para converter RGB em escala de cinza.
+
+* `Redução de ruído`: técnicas de suavização, desfoque e filtragem podem ser aplicadas para remover ruídos indesejados das imagens. Os métodos ``GaussianBlur()`` e ``medianBlur()`` são comumente usados para isso.
+
+* `Normalização`: A normalização ajusta os valores de intensidade dos pixels para um intervalo desejado, muitas vezes entre 0 e 1. Isso pode melhorar o desempenho dos modelos de machine learning. `Normalize()`, scikit-image pode ser utilizado para isso.
+
+* ``Binarização``: A binarização converte imagens em tons de cinza em preto e branco por limiar. O método de `threshold()` é usado para binarizar imagens no OpenCV.
+
+* `Melhoria de contraste`: O contraste de imagens pode ser ajustado usando a equalização do histograma. O método ``equalizeHist()`` aumenta o contraste de imagens.
+
+
+Com a combinação certa dessas técnicas, você pode melhorar significativamente seus dados de imagem e criar melhores aplicativos de visão computacional. O pré-processamento de imagens permite refinar imagens brutas em um formato adequado para o problema.
+
+## Aplicando filtros para reduzir ruído e afiar imagens
+
+* ``O desfoque Gaussiano``: O filtro de desfoque gaussiano reduz detalhes e ruído em uma imagem. Ele "borra" a imagem aplicando uma função gaussiana a cada pixel e seus pixels vircundantes. Isso pode ajudar a suavizar bordas e detalhes em preparação para detecção de borda ou outras técnicas de processamento.
+
+* `Desfoque médio`: O filtro de desfoque mediano é útil para remover o ruído de sal e pimenta de uma imagem. Ele funciona substituindo cada pixel pelo valor médio e seus pixels vizinhos. Isso pode ajudar a suavizar os pixels ruidosos isolados, preservando as bordas.
+
+* `Filtro Laplaciano`: O filtro Laplaciano é usado para detectar bordas em uma imagem. Ele funciona detectando áreas de mudança de intensidade rápida. A saída será uma imagem com arestas destacadas, que pode ser usada para detecção de borda. Isso ajuda a identificar e extrair recursos de uma imagem.
+
+* `Unsharp Masking`: É uma técnica usada para aguçar detalhes e melhorar as bordas em uma imagem. Ele funciona subtraindo uma versao desfocada da imagem original. Isso amplifica as bordas e detalhes, fazendo com que a imagem pareça mais nítida. O mascaramento desfiado pode ser usado para afiar detalhes antes da extração de recursos ou da detecção de objetos.
+
+* `Bilateral Filter`: O filtro bilateral suaviza as imagens enquanto preserva as bordas. Ele faz isso considerando tanto a proximidade espacial quanto a semelhança de cores de pixel. Pixels que estão próximos espacialmente e de cor semelhante são suavizados juntos. Pixels que são distantes ou muito diferentes em cores não são suavizados. Isso resulta em uma imagem suavizada com bordas afiadas. O filtro bilateral pode ser útil para a redução de ruído antes da detecção de borda.
 
 ### Sistema da Visão Computacional
 
