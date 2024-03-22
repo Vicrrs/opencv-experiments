@@ -93,7 +93,7 @@ Normalizar os valores de pixels para uma faixa padrão, como 0 a 1 ou -1 a 1, aj
 
 Agora que você tem uma boa compreensão das várias técnicas de pré-processamento de imagens em Python, você provavelmente tem algumas perguntas persistentes. Aqui estão algumas das perguntas mais frequentes sobre pré-processamento de imagens e suas respostas:
 
-###Quais formatos de imagem o Python é compatível?
+### Quais formatos de imagem o Python é compatível?
 O Python suporta uma ampla gama de formatos de imagem através de bibliotecas como OpenCV e Pillow.
 Alguns dos principais formatos incluem:
 * JPEG — Formato de imagem comum e com perdas
