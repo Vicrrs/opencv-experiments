@@ -58,8 +58,8 @@ def processar_video_e_gerar_grafico(video_path, limiar_inferior, limiar_superior
     plt.show()
 
 # Configurações iniciais
-video_path = 'C:/Users/rozas/Videos/Drive/astronauta.mp4'  # Atualize para o caminho do seu vídeo
-base_dir = 'E:/OPENCV_preprocess/astronauta/test003'  # Atualize para o seu diretório base
+video_path = r'C:\\Users\\rozas\\Videos\\Drive\\astronauta.mp4' # Atualize para o caminho do seu vídeo
+base_dir = r'E:\OPENCV_preprocess\astronauta'   # Atualize para o seu diretório base
 categorias_dirs = {
     'desfocado': os.path.join(base_dir, 'desfocado'),
     'nitido': os.path.join(base_dir, 'nitido'),

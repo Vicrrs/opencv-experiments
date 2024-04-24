@@ -22,7 +22,7 @@ def save_image(image, file_path):
     cv2.imwrite(file_path, image_bgr)
 
 
-image_path = r'C:\Users\Inovacao\Documents\github\opencv-experiments\imgs\produtos\cafe.jpeg'
+image_path = r'C:\Users\rozas\Documents\Projetos_GITHUB\opencv-experiments\imgs\produtos\activia.jpg'
 output_path = 'bare_cropped.png'
 image = load_image(image_path)
 largest_contour = find_largest_contour(image)
